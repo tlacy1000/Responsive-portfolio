@@ -1,4 +1,3 @@
-
 body {
   background-color: lightgray;
   margin: 0;
@@ -75,5 +74,307 @@ li {
 
 p.words {
   display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Bigly*/
+
+@media screen and (max-width: 980px) {
+  #main {
+    width: 100%;
+  }
+  body {
+    background-color: lightgray;
+    margin: 0;
+  }
+  h1 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: teal;
+  }
+  main {
+    color: teal 
+  }
+  header {
+    margin-bottom: 30px;
+    background-color: white;
+    border-bottom: 2px solid #c1c1c1;
+  }
+  nav {
+    float: right;
+  }
+  .centered-header {
+    width: 960px; /* this is the same width as the `main` element */
+    margin: 0 auto; /* this makes it centered */
+  }
+  .full-name {
+    height: 25px;
+    background-color: teal;
+    color: antiquewhite;
+    padding: 20px 20px 20px 20px;
+    border: 5px;
+    display: inline-block;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  .image {
+    width: 300px;
+    height: 250px;
+    vertical-align: top;
+    padding-right: 15px;
+  }
+  main {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid #00cece;
+  }
+  .form-action {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border-top: 10px solid teal;
+    background-color: rgb(90, 85, 85);
+    margin-top: 30px;
+  }
+  li {
+    color: teal;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav-list {
+    color: teal;
+    float: right;
+    display: block;
+  }
+  
+  p.words {
+    display: inline-block;
+  
+  }
+}
+
+
+
+
+
+
+
+/*medium screen below*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #main {
+    width: 100%;
+  }
+  body {
+    background-color: lightgray;
+    margin: 0;
+  }
+  h1 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: teal;
+  }
+  main {
+    color: teal 
+  }
+  header {
+    margin-bottom: 30px;
+    background-color: white;
+    border-bottom: 2px solid #c1c1c1;
+  }
+  nav {
+    float: right;
+  }
+  .centered-header {
+    width: 768px; /* this is the same width as the `main` element */
+    margin: 0 auto; /* this makes it centered */
+  }
+  .full-name {
+    height: 25px;
+    background-color: teal;
+    color: antiquewhite;
+    padding: 20px 20px 20px 20px;
+    border: 5px;
+    display: inline-block;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  .image {
+    width: 240px;
+    height: 200px;
+    vertical-align: top;
+    padding-right: 15px;
+  }
+  main {
+    width: 768px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid #00cece;
+  }
+  .form-action {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border-top: 10px solid teal;
+    background-color: rgb(90, 85, 85);
+    margin-top: 30px;
+  }
+  li {
+    color: teal;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav-list {
+    color: teal;
+    float: right;
+    display: block;
+  }
+  
+  p.words {
+    display: inline-block;
+  
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+/*smol screen for smol cat below*/
+
+
+
+
+@media screen and (max-width: 640px) {
+  #main {
+    width: 100%;
+  }
+
+  body {
+    background-color: lightgray;
+    margin: 0;
+  }
+  h1 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: teal;
+  }
+  main {
+    color: teal 
+  }
+  header {
+    margin-bottom: 30px;
+    background-color: white;
+    border-bottom: 2px solid #c1c1c1;
+  }
+  nav {
+    float: right;
+  }
+  .centered-header {
+    width: 454px; /* this is the same width as the `main` element */
+    margin: 0 auto; /* this makes it centered */
+  }
+  .full-name {
+    height: 25px;
+    background-color: teal;
+    color: antiquewhite;
+    padding: 20px 20px 20px 20px;
+    border: 5px;
+    display: inline-block;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  .image {
+    width: 195px;
+    height: 162.5px;
+    vertical-align: top;
+    padding-right: 15px;
+  }
+  main {
+    width: 424px;
+    height: 390px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid #00cece;
+  }
+  .form-action {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border-top: 10px solid teal;
+    background-color: rgb(90, 85, 85);
+    margin-top: 30px;
+  }
+  li {
+    color: teal;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav-list {
+    color: teal;
+    float: right;
+    display: block;
+  }
+  
+  p.words {
+    display: inline-block;
+  
+  }
+  
 
 }
