@@ -53,6 +53,16 @@ main {
   height: 600px;
   margin: 0 auto;
 }
+  .button {
+      background-color: rgb(10, 199, 233); /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
 footer {
   position: absolute;
   width: 100%;
@@ -242,7 +252,7 @@ p.words {
   }
   main {
     width: 768px;
-    height: 480px;
+    height: 600px;
     margin: 0 auto;
     background-color: whitesmoke;
     padding: 20px 20px 20px 20px;
@@ -298,6 +308,7 @@ p.words {
 @media screen and (max-width: 640px) {
   #main {
     width: 100%;
+
   }
 
   body {
@@ -337,11 +348,13 @@ p.words {
     width: 195px;
     height: 162.5px;
     vertical-align: top;
+    float: left;
     padding-right: 15px;
   }
   main {
+    position: relative;
     width: 424px;
-    height: 390px;
+    height: 700px;
     margin: 0 auto;
     background-color: whitesmoke;
     padding: 20px 20px 20px 20px;
